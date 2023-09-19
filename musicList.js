@@ -46,7 +46,7 @@ const object4 = {
 }
 
 const object5 = {
-  title: 'D&D Intro',
+  title: 'DaD Intro',
   artist: 'Ketiman, ObeeWan',
   audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145832444998725672/Dark_and_Darker.mp3',
   audioType: 'mp3',
@@ -64,7 +64,7 @@ const object6 = {
   genre: 'HipHop, Afro Beat',
   versions: [
     {
-      title: 'idk_yet_0',
+      title: 'idk yet 0',
       audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1043203192026054706/Idk_yet.mp3',
       audioType: 'mp3'
   }]
@@ -145,7 +145,7 @@ const object13 = {
   artist: 'Ketiman, ObeeWan',
   audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1146067525206028299/Brain_Damage.mp3',
   audioType: 'mp3',
-  imageSource: 'images/dark-and-darker.jpg',
+  imageSource: 'images/brain-image.jpeg',
   genre: 'Atmospheric, Experimental',
   versions: ''
 }
@@ -182,4 +182,4 @@ const object16 = {
 
 
 
-let audioList = [object1,object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16];
+export let audioList = [object1,object2, object3, object4, object5, object6, object7, object8, object9, object10, object11, object12, object13, object14, object15, object16];

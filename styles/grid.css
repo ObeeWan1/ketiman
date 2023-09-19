@@ -358,7 +358,17 @@ body {
   border-top-right-radius: 10px;
 }
 
-.align-title {
+/*
+###############################
+Später bei Nutzereingaben des Titels darauf achten,
+dass Sonderzeichen abgefangen oder verboten werden,
+da wir die Titel von Javascript quasi in CSS
+übertragen.
+CSS mag keine Sonderzeichen bei Klassennamen!
+###############################
+*/
+
+.css-title-Darkest-Alpha {
   color: rgb(255, 128, 82);
   position: absolute;
   top: -10px;
@@ -368,7 +378,7 @@ body {
   text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
 }
 
-.align-title-project{
+.css-title-Project-1{
   color: rgb(82, 163, 255);
   position: absolute;
   top: -10px;
@@ -378,7 +388,7 @@ body {
   text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
 }
 
-.align-title-glockenrap {
+.css-title-Rainy-Glitter {
   color: rgb(255, 180, 82);
   position: absolute;
   top: -10px;
@@ -388,7 +398,7 @@ body {
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
 }
 
-.align-title-dark {
+.css-title-Dark {
   color: rgb(0, 221, 184);
   position: absolute;
   top: -10px;
@@ -398,7 +408,17 @@ body {
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
 }
 
-.align-title-idkyet {
+.css-title-DaD-Intro {
+  color: rgb(255, 128, 82);
+  position: absolute;
+  top: -10px;
+  left: 35px;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
+}
+
+.css-title-idk-yet {
   color: rgb(0, 221, 118);
   position: absolute;
   top: -10px;
@@ -408,7 +428,7 @@ body {
   text-shadow: 5px 5px 3px rgba(0, 0, 0, 1);
 }
 
-.align-title-driverseat {
+.css-title-Driverseat {
   color: rgb(233, 95, 221);
   position: absolute;
   top: -10px;
@@ -418,7 +438,7 @@ body {
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
 }
 
-.align-title-glockenspiel {
+.css-title-Glockenspiel {
   color: rgb(95, 143, 233);
   position: absolute;
   top: -10px;
@@ -428,7 +448,7 @@ body {
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
 }
 
-.align-title-shape {
+.css-title-Shape-of-you {
   color: rgb(95, 212, 233);
   position: absolute;
   top: -10px;
@@ -438,7 +458,7 @@ body {
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
 }
 
-.align-title-db {
+.css-title-DB-Volume {
   color: rgb(159, 95, 233);
   position: absolute;
   top: -10px;
@@ -448,7 +468,7 @@ body {
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
 }
 
-.align-title-stuff {
+.css-title-New-Stuff {
   color: rgb(255, 192, 134);
   position: absolute;
   top: -10px;
@@ -458,7 +478,7 @@ body {
   text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
 }
 
-.align-title-harry {
+.css-title-Harry-Hard {
   color: rgb(172, 172, 172);
   position: absolute;
   top: -10px;
@@ -468,7 +488,7 @@ body {
   text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
 }
 
-.align-title-brain {
+.css-title-Brain-Damage {
   color: rgb(228, 214, 255);
   position: absolute;
   top: -10px;
@@ -478,7 +498,7 @@ body {
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
 }
 
-.align-title-zitrone {
+.css-title-Zitronensorbattle {
   color: rgb(217, 255, 0);
   position: absolute;
   top: -10px;
@@ -488,7 +508,7 @@ body {
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
 }
 
-.align-title-christmas {
+.css-title-Orchestral-Christmas {
   color: rgb(255, 0, 221);
   position: absolute;
   top: -10px;
@@ -498,7 +518,7 @@ body {
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
 }
 
-.align-title-fiddle {
+.css-title-Fiddle-in-the-Middle {
   color: rgb(210, 219, 200);
   position: absolute;
   top: -10px;
