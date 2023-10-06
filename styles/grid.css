@@ -6,11 +6,22 @@ p {
   color: white;
 }
 
+.title-0-margin {
+  margin: 0px;
+}
+
 .description {
-  font-size: 13px;
+  /*font-size: 13px;*/
+  /*font-size: 2vw;*/
   color: rgb(170, 170, 170);
   position: relative;
-  top: 4px;
+  /*top: 0px;*/
+}
+
+.description-content {
+}
+
+.newline {
 }
 
 .arrow {
@@ -20,8 +31,154 @@ p {
   top: 20px;
 }
 
+
+/*
+#####################
+> Margin vom Body könnte Balken an den Rändern entfernen.
+> z.b. Margin-Bot: -10px;
+#####################
+*/
 body {
   background-color: rgb(0, 0, 0);
+}
+
+.css-header {
+  background-color: rgb(58, 58, 58);
+  position: sticky;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(85, 85, 85);
+  z-index: 1;
+  top: 0px;
+  margin-left: 110px;
+  transition: margin-left 0.3s ease;
+  /*margin-right: 50px;*/
+}
+
+.css-header-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+  height: 120px;
+}
+
+.header-img-container {
+  height: 70px;
+  margin: 5px 20px 5px 20px;
+}
+
+.header-img {
+  width: 70px;
+  border-radius: 10px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.header-color-Darkest-Alpha {
+  border-color: rgb(255, 128, 82);
+  color: rgb(255, 128, 82);
+}
+
+.header-color-Project-1 {
+  border-color: rgb(82, 163, 255);
+  color: rgb(82, 163, 255);
+}
+
+.header-color-Rainy-Glitter {
+  border-color: rgb(255, 180, 82);
+  color: rgb(255, 180, 82);
+}
+
+.header-color-Dark {
+  border-color: rgb(0, 221, 184);
+  color: rgb(0, 221, 184);
+}
+
+.header-color-DaD-Intro {
+  border-color: rgb(255, 128, 82);
+  color: rgb(255, 128, 82);
+}
+
+.header-color-idk-yet {
+  border-color: rgb(0, 221, 118);
+  color: rgb(0, 221, 118);
+}
+
+.header-color-Driverseat {
+  border-color: rgb(233, 95, 221);
+  color: rgb(233, 95, 221);
+}
+
+.header-color-Glocken-Spiel {
+  border-color: rgb(95, 143, 233);
+  color: rgb(95, 143, 233);
+}
+
+.header-color-Shape-of-you {
+  border-color: rgb(95, 212, 233);
+  color: rgb(95, 212, 233);
+}
+
+.header-color-DB-Volume {
+  border-color: rgb(159, 95, 233);
+  color: rgb(159, 95, 233);
+}
+
+.header-color-New-Stuff {
+  border-color: rgb(255, 192, 134);
+  color: rgb(255, 192, 134);
+}
+
+.header-color-Harry-Hard {
+  border-color: rgb(172, 172, 172);
+  color: rgb(172, 172, 172);
+}
+
+.header-color-Brain-Damage {
+  border-color: rgb(228, 214, 255);
+  color: rgb(228, 214, 255);
+}
+
+.header-color-Zitronen-Sorbattle {
+  border-color: rgb(217, 255, 0);
+  color: rgb(217, 255, 0);
+}
+
+.header-color-Orchestral-Christmas {
+  border-color: rgb(255, 0, 221);
+  color: rgb(255, 0, 221);
+}
+
+.header-color-Fiddle-in-the-Middle {
+  border-color: rgb(210, 219, 200);
+  color: rgb(210, 219, 200);
+}
+
+.header-info-container {
+  padding-right: 20px;
+  margin: 10px 20px 10px 10px;
+  border-width: 1px;
+  border-right-color: gray;
+  border-right-style: solid;
+}
+
+.header-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.header-artist {
+  color: rgb(167, 167, 167);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.header-audio-container {
+  transition: margin-left 0.3s ease;
 }
 
 .rightbar {
@@ -30,7 +187,7 @@ body {
   border-left-color: rgb(85, 85, 85);
   border-left-style: solid;
   position: fixed;
-  width: 50px;
+  /*width: 50px;*/
   top:0px;
   right:0px;
   bottom:0px;
@@ -39,37 +196,63 @@ body {
 
 .sidebar{
   background-color: rgb(58, 58, 58);
-  width: 100px;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-evenly;
-  align-items: center;
+  width: 110px;
   position: fixed;
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
   top:0px;
   left:0px;
   bottom:0px;
-  padding: 5px;
   z-index: 1;
   border-right-width: 1px;
   border-right-color: rgb(85, 85, 85);
   border-right-style: solid;
+  transition: width 0.3s ease;
+}
+
+.sidebar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+  transition: padding 0.3s ease;
 }
 
 .icon-container {
-  height: 60px;
-  width: 60px;
-  border-bottom-width: 2px;
-  border-color: rgb(90, 90, 90);
-  border-bottom-style: solid;
-  padding-bottom: 40px;
   position: relative;
+  cursor: pointer;
+}
+
+.social-icon-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.inner-line-container {
+  width: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  background-color: gray;
+  margin: 15px 0px 15px 0px;
+}
+
+.outer-line-container {
+  height: 1px;
+  width: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: gray;
+  background-color: gray;
+  margin: 15px 0px 15px 0px;
 }
 
 .home-icon {
   background-color: rgb(48, 48, 48);
   border-radius: 60px;
-  height: 60px;
-  border-radius: 60px;
+  height: 80px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -88,19 +271,19 @@ body {
   padding: 5px 10px 5px 10px;
   color: whitesmoke;
   background-color: black;
-  position:absolute;
-  top: 0px;
-  left: 70px;
+  position: absolute;
+  top: 10px;
+  left: 90px;
   display: none;
   border-radius: 5px;
   opacity: 0;
 }
 
 .kevin-icon {
-  height: 90px;
+  height: 80px;
   border-radius: 50px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
-  position: relative;
+  cursor: pointer;
 }
 
 .kevin-icon:hover {
@@ -114,8 +297,8 @@ body {
   color: whitesmoke;
   background-color: black;
   position:absolute;
-  top: 190px;
-  left: 110px;
+  top: 10px;
+  left: 90px;
   border-radius: 5px;
   opacity: 0;
   display: none;
@@ -127,20 +310,12 @@ body {
 }
 
 .spotify-icon-container {
-  border-bottom-width: 2px;
-  border-color: rgb(90, 90, 90);
-  border-top-style: solid;
-  padding-top: 40px;
-  border-bottom-style: solid;
-  padding-bottom: 40px;
-  border-bottom-width: 3px;
   height: 60px;
   width: 60px;
-  position: relative;
 }
 
 .spotify-icon {
-  height: 60px;
+  height: 80px;
   border-radius: 60px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
@@ -156,8 +331,8 @@ body {
   color: whitesmoke;
   background-color: black;
   position:absolute;
-  top: 40px;
-  left: 75px;
+  top: 10px;
+  left: 90px;
   border-radius: 5px;
   opacity: 0;
   display: none;
@@ -169,7 +344,7 @@ body {
 }
 
 .soundcloud-icon {
-  height: 60px;
+  height: 80px;
   border-radius: 60px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
@@ -177,7 +352,7 @@ body {
 .soundcloud-icon:hover {
   filter: brightness(1.3);
   transform: scale(1.05);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 15px rgb(73, 35, 35);
 }
 
 .soundcloud-p {
@@ -185,8 +360,8 @@ body {
   color: whitesmoke;
   background-color: black;
   position:absolute;
-  top: 0px;
-  left: 75px;
+  top: 10px;
+  left: 90px;
   border-radius: 5px;
   opacity: 0;
   display: none;
@@ -198,10 +373,8 @@ body {
 }
 
 .youtube-icon {
-  position: relative;
-  left: 0px;
-  height: 60px;
-  border-radius: 30px;
+  height: 80px;
+  border-radius: 40px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
   background-color: red;
 }
@@ -217,8 +390,8 @@ body {
   color: whitesmoke;
   background-color: black;
   position:absolute;
-  top: 0px;
-  left: 75px;
+  top: 10px;
+  left: 90px;
   border-radius: 5px;
   opacity: 0;
   display: none;
@@ -232,9 +405,7 @@ body {
 .menu-icon {
   border-radius: 60px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
-  height: 60px;
-  position: relative;
-  left: -3px;
+  height: 80px;
   background-color: rgb(48, 48, 48);
 }
 
@@ -249,8 +420,8 @@ body {
   color: whitesmoke;
   background-color: black;
   position:absolute;
-  top: 0px;
-  left: 70px;
+  top: 10px;
+  left: 90px;
   border-radius: 5px;
   opacity: 0;
   display: none;
@@ -301,11 +472,17 @@ body {
 
 .main-flex-container {
   background-color: rgb(27, 27, 27);
-  margin: 10px 50px 10px 110px;
+  margin: 10px 0px 10px 110px;
+  /*
+  ##################################
+  Verhindert, dass sich flexbox0 ausdehnen kann
+  ##################################
   display: flex;
   flex-direction: column;
   align-items: center;
+  */
   border-radius: 10px;
+  transition: margin-left 0.3s ease;
 }
 
 .main-body-part-grid {
@@ -315,34 +492,107 @@ body {
   row-gap: 50px;
   column-gap: 50px;
   padding: 50px;
-  margin-bottom: 100px;
+  border-radius: 10px;
+  /*
+  ################################
+  Margin-Bottom auf 0 gesetzt
+  ################################
+  */
+  margin-bottom: 0px;
 }
 
-.flexbox0{
+@media (max-width: 700px) {
+  .main-body-part-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    width: 0px;
+    padding: 0px;
+    overflow: hidden;
+  }
+
+  .css-header {
+    margin-left: 0px;
+  }
+
+  .main-flex-container {
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1135px) {
+  .main-body-part-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1136px) and (max-width: 1500px) {
+  .main-body-part-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .header-audio-container {
+    margin-left: 100px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .header-audio-container {
+    margin-left: 450px;
+  }
+}
+
+@media (max-height: 690px) {
+  .social-icon-container {
+    display: none;
+  }
+  .sidebar-container {
+    padding: 100px 0px 100px 0px;
+  }
+  /*.icon-container {
+    margin-bottom: 30px;
+  }*/
+  .inner-line-container {
+    display: none;
+  }
+}
+
+
+
+.flexbox0 {
   background-color: rgb(33, 33, 33);
   border-radius: 10px;
-  transition: transform 0.1s, box-shadow 0.1s;
-  height: 574px;
+  cursor: pointer;
+  backface-visibility: hidden;
+  transition: transform 0.2s ease-in-out;
+  overflow: hidden;
+}
+
+.content-container {
+  position: relative;
+  transition: transform 0.2s ease-in-out;
 }
 
 .flexbox1 {
   background-color: rgb(33, 33, 33);
   border-radius: 10px;
   transition: transform 0.1s, box-shadow 0.1s;
+  cursor: pointer;
 }
 
 .flexbox-idk {
   background-color: rgb(33, 33, 33);
   border-radius: 10px;
   transition: transform 0.1s, box-shadow 0.1s;
-  height: 650px;
+  /*height: 650px;*/
 }
 
 .flexbox-darkestalpha {
   background-color: rgb(33, 33, 33);
   border-radius: 10px;
   transition: transform 0.1s, box-shadow 0.1s;
-  height: 574px;
+  /*height: 574px;*/
 }
 
 .controler {
@@ -352,7 +602,6 @@ body {
 }
 
 .flexbox1-head {
-  overflow: hidden;
   position:relative;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -368,11 +617,11 @@ CSS mag keine Sonderzeichen bei Klassennamen!
 ###############################
 */
 
-.css-title-Darkest-Alpha {
+.css-title-Darkest-Alpha{
   color: rgb(255, 128, 82);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
@@ -382,27 +631,27 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(82, 163, 255);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
-  text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
 }
 
 .css-title-Rainy-Glitter {
   color: rgb(255, 180, 82);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
-  text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
 }
 
 .css-title-Dark {
   color: rgb(0, 221, 184);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
@@ -412,7 +661,7 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(255, 128, 82);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
@@ -422,7 +671,7 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(0, 221, 118);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 5px 5px 3px rgba(0, 0, 0, 1);
@@ -432,17 +681,17 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(233, 95, 221);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 1);
 }
 
-.css-title-Glockenspiel {
+.css-title-Glocken-Spiel {
   color: rgb(95, 143, 233);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
@@ -452,7 +701,7 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(95, 212, 233);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 4px 4px 8px rgba(0, 0, 0, 1);
@@ -462,7 +711,7 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(159, 95, 233);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
@@ -472,7 +721,7 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(255, 192, 134);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
@@ -482,7 +731,7 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(172, 172, 172);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
@@ -492,17 +741,17 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(228, 214, 255);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
 }
 
-.css-title-Zitronensorbattle {
+.css-title-Zitronen-Sorbattle {
   color: rgb(217, 255, 0);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
@@ -512,7 +761,7 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(255, 0, 221);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
@@ -522,24 +771,17 @@ CSS mag keine Sonderzeichen bei Klassennamen!
   color: rgb(210, 219, 200);
   position: absolute;
   top: -10px;
-  left: 35px;
+  left: 15px;
   font-size: 30px;
   font-weight: bold;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 1);
 }
 
 .image-container {
-  position: relative;
-  height: 300px;
-  width: 350px;
 }
 
 .dad-img {
-  height:  300px;
-  width:  500px;
-  object-fit: cover;
-  position:absolute;
-  top: 0px;
+  width: 100%;
 }
 
 .flexbox1-body {
@@ -554,7 +796,6 @@ CSS mag keine Sonderzeichen bei Klassennamen!
 }
 
 .song-versions {
-  /*Komische Box? BG-Color deckt auf!*/
   cursor: pointer;
 }
 
@@ -606,11 +847,25 @@ CSS mag keine Sonderzeichen bei Klassennamen!
 }
 
 .flexbox0:hover {
-  filter: brightness(1.1);
-  background-color: rgb(33, 33, 33);
   transform: scale(1.01);
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
 }
+
+.flexbox0:hover .content-container {
+  transform: scale(1.01);
+  filter:brightness(1.1);
+}
+
+/*.css-title-${titleWithoutSpace} {
+  color: rgb(255, 128, 82);
+  position: absolute;
+  top: -10px;
+  left: 35px;
+  font-size: 30px;
+  font-weight: bold;
+  text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
+}
+*/
 
 .flexbox-idk:hover {
   filter: brightness(1.1);
