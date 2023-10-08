@@ -44,10 +44,18 @@ audioList.forEach((audioObject) => {
       <div class="flexbox1-body">
         <audio class="controler" src="${audioObject.audioSource}" type="audio/${audioObject.audioType}"></audio>
         <div class="flexbox1-body-grid">
-          <p class="description">Artist</p>
-          <p class="description-content">${audioObject.artist}</p>
-          <p class="description">Genre</p>
-          <p class="description-content">${audioObject.genre}</p>
+          <div>
+            <p class="description">Artist</p>
+          </div>
+          <div>
+            <p class="description-content">${audioObject.artist}</p>
+          </div>
+          <div>
+            <p class="description">Genre</p>
+          </div>
+          <div>
+            <p class="description-content">${audioObject.genre}</p>
+          </div>
         </div>
       </div>
       <div class="drop-down-hover-2">
@@ -87,10 +95,18 @@ audioList.forEach((audioObject) => {
       <div class="flexbox1-body">
         <audio class="controler" src="${audioObject.audioSource}" type="audio/${audioObject.audioType}"></audio>
         <div class="flexbox1-body-grid">
-          <p class="description">Artist</p>
-          <p class="description-content">${audioObject.artist}</p>
-          <p class="description">Genre</p>
-          <p class="description-content">${audioObject.genre}</p>
+          <div>
+            <p class="description">Artist</p>
+          </div>
+          <div>
+            <p class="description-content">${audioObject.artist}</p>
+          </div>
+          <div>
+            <p class="description">Genre</p>
+          </div>
+          <div>
+            <p class="description-content">${audioObject.genre}</p>
+          </div>
         </div>
       </div>
       <div class="drop-down-hover-2">
