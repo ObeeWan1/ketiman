@@ -16,13 +16,12 @@ p {
   color: rgb(170, 170, 170);
   position: relative;
   /*top: 0px;*/
-  background-color: lightcoral;
-  font-size: clamp(0.5rem, 1vw, 2rem)
+  font-size: clamp(0.8rem, 1rem, 2vw);
+  margin-right: 5px;
 }
 
 .description-content {
-  background-color: rgb(21, 170, 207);
-  font-size: clamp(0.5rem, 1vw, 2rem)
+  font-size: clamp(0.8rem, 1rem, 2vw);
 }
 
 .newline {
@@ -801,7 +800,6 @@ CSS mag keine Sonderzeichen bei Klassennamen!
     grid-template-columns: 80px 150px;
   */
   grid-template-columns: 1fr 2fr;
-  background-color: aqua;
 }
 
 .song-versions {
