@@ -1,6 +1,25 @@
 
-
 const object1 = {
+  title: 'Rainy Glitter',
+  artist: 'Ketiman',
+  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1036982808897396766/Glockenspiel_Rap.mp3',
+  audioType: 'mp3',
+  imageSource: 'images/glockenrap.jpg',
+  genre: 'Cinematic',
+  versions: ''
+}
+
+const object2 = {
+  title: 'Project 1',
+  artist: 'Ketiman',
+  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145739561780129812/Project_1.wav',
+  audioType: 'wav',
+  imageSource: 'images/new_stuff.jpg',
+  genre: 'Atmo',
+  versions: ''
+}
+
+const object3 = {
   title: 'Darkest Alpha',
   artist: 'Ketiman',
   audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1142379989480771584/Darkest_Alpha.wav',
@@ -13,26 +32,6 @@ const object1 = {
       audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1142374603721818122/Darkest_Alpha_Clean.wav',
       audioType: 'wav'
   }]
-}
-
-const object2 = {
-  title: 'Project 1',
-  artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145739561780129812/Project_1.wav',
-  audioType: 'wav',
-  imageSource: 'images/project.png',
-  genre: 'Atmo',
-  versions: ''
-}
-
-const object3 = {
-  title: 'Rainy Glitter',
-  artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1036982808897396766/Glockenspiel_Rap.mp3',
-  audioType: 'mp3',
-  imageSource: 'images/glockenrap.jpg',
-  genre: 'Cinematic',
-  versions: ''
 }
 
 const object4 = {
@@ -115,7 +114,7 @@ const object11 = {
   artist: 'Ketiman',
   audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1027300413407494194/New_stuff_reworked_choir.mp3',
   audioType: 'mp3',
-  imageSource: 'images/new_stuff.jpg',
+  imageSource: 'images/project.png',
   genre: 'Atmo',
   versions: [
     {

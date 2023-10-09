@@ -1,7 +1,7 @@
 p {
   font-family: sans-serif;
 }
-
+/*test*/
 .p-style{
   color: white;
 }
@@ -85,8 +85,8 @@ body {
 }
 
 .header-color-Project-1 {
-  border-color: rgb(82, 163, 255);
-  color: rgb(82, 163, 255);
+  border-color: rgb(185, 255, 255);
+  color: rgb(185, 255, 255);
 }
 
 .header-color-Rainy-Glitter {
@@ -130,8 +130,8 @@ body {
 }
 
 .header-color-New-Stuff {
-  border-color: rgb(255, 192, 134);
-  color: rgb(255, 192, 134);
+  border-color: rgb(82, 163, 255);
+  color: rgb(82, 163, 255);
 }
 
 .header-color-Harry-Hard {
@@ -631,13 +631,13 @@ CSS mag keine Sonderzeichen bei Klassennamen!
 }
 
 .css-title-Project-1{
-  color: rgb(82, 163, 255);
+  color: rgb(185, 255, 255);
   position: absolute;
   top: -10px;
   left: 15px;
   font-size: 30px;
   font-weight: bold;
-  text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
+  text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
 }
 
 .css-title-Rainy-Glitter {
@@ -721,13 +721,13 @@ CSS mag keine Sonderzeichen bei Klassennamen!
 }
 
 .css-title-New-Stuff {
-  color: rgb(255, 192, 134);
+  color: rgb(82, 163, 255);
   position: absolute;
   top: -10px;
   left: 15px;
   font-size: 30px;
   font-weight: bold;
-  text-shadow: 5px 5px 1px rgba(0, 0, 0, 1);
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 1);
 }
 
 .css-title-Harry-Hard {
