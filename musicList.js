@@ -25,7 +25,7 @@ const object3 = {
   audioSource: 'songs/NoFear.mp3',
   audioType: 'mp3',
   imageSource: 'images/Harry_hard.png',
-  genre: 'DnB',
+  genre: 'EDM',
   versions: ''
 }
 
