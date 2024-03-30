@@ -2,7 +2,7 @@
 const object1 = {
   title: 'Rainy Glitter',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1036982808897396766/Glockenspiel_Rap.mp3',
+  audioSource: 'songs/glockenspiel_Rap.mp3',
   audioType: 'mp3',
   imageSource: 'images/glockenrap.jpg',
   genre: 'Cinematic',
@@ -12,7 +12,7 @@ const object1 = {
 const object2 = {
   title: 'Project 1',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145739561780129812/Project_1.wav',
+  audioSource: 'songs/Project_1.wav',
   audioType: 'wav',
   imageSource: 'images/new_stuff.jpg',
   genre: 'Atmo',
@@ -20,10 +20,66 @@ const object2 = {
 }
 
 const object3 = {
+  title: 'No Fear',
+  artist: 'Ketiman',
+  audioSource: 'songs/NoFear.mp3',
+  audioType: 'mp3',
+  imageSource: 'images/Harry_hard.png',
+  genre: 'DnB',
+  versions: ''
+}
+
+const object4 = {
+  title: 'Dark',
+  artist: 'Ketiman',
+  audioSource: 'songs/Dark.mp3',
+  audioType: 'mp3',
+  imageSource: 'images/Dark.png',
+  genre: 'Atmo',
+  versions: ''
+}
+
+const object5 = {
+  title: 'DaD Intro',
+  artist: 'Ketiman',
+  audioSource: 'songs/Dark_and_Darker.mp3',
+  audioType: 'mp3',
+  imageSource: 'images/dad_intro.png',
+  genre: 'Cinematic',
+  versions: ''
+}
+
+const object6 = {
+  title: 'idk yet',
+  artist: 'Ketiman',
+  audioSource: 'songs/Idk_yet_vocalchop_final.mp3',
+  audioType: 'mp3',
+  imageSource: 'images/idk_yet.png',
+  genre: 'Afro Beat',
+  versions: [
+    {
+      title: 'idk yet 0',
+      audioSource: 'songs/Idk_yet.mp3',
+      audioType: 'mp3'
+  }]
+}
+
+const object7 = {
+  title: 'Driverseat',
+  artist: 'Ketiman',
+  audioSource: 'songs/Driverseat.wav',
+  audioType: 'wav',
+  imageSource: 'images/driverseat.jpg',
+  genre: 'Dance Hall',
+  versions: ''
+}
+
+
+const object8 = {
   title: 'Darkest Alpha',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1142379989480771584/Darkest_Alpha.wav',
-  audioType: 'wav',
+  audioSource: 'songs/Darkest_Alpha.mp3',
+  audioType: 'mp3',
   imageSource: 'images/dark-and-darker.jpg',
   genre: 'Cinematic',
   versions: [
@@ -34,65 +90,10 @@ const object3 = {
   }]
 }
 
-const object4 = {
-  title: 'Dark',
-  artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145740331875315873/Dark.mp3',
-  audioType: 'mp3',
-  imageSource: 'images/Dark.png',
-  genre: 'Atmo',
-  versions: ''
-}
-
-const object5 = {
-  title: 'DaD Intro',
-  artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145832444998725672/Dark_and_Darker.mp3',
-  audioType: 'mp3',
-  imageSource: 'images/dad_intro.png',
-  genre: 'Cinematic',
-  versions: ''
-}
-
-const object6 = {
-  title: 'idk yet',
-  artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145740332357656596/Idk_yet_vocalchop_final.mp3',
-  audioType: 'mp3',
-  imageSource: 'images/idk_yet.png',
-  genre: 'Afro Beat',
-  versions: [
-    {
-      title: 'idk yet 0',
-      audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1043203192026054706/Idk_yet.mp3',
-      audioType: 'mp3'
-  }]
-}
-
-const object7 = {
-  title: 'Driverseat',
-  artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145739562174382121/Driverseat.wav',
-  audioType: 'wav',
-  imageSource: 'images/driverseat.jpg',
-  genre: 'Dance Hall',
-  versions: ''
-}
-
-const object8 = {
-  title: 'Glocken Spiel',
-  artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1043615171626668084/Glockenspiel_oder_so.mp3',
-  audioType: 'mp3',
-  imageSource: 'images/glockenspiel.png',
-  genre: 'Hardbass',
-  versions: ''
-}
-
 const object9 = {
   title: 'Shape of you',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145739562547687515/Shape_of_you_1_.wav',
+  audioSource: 'songs/Shape_of_you_1_.wav',
   audioType: 'wav',
   imageSource: 'images/shape_of_you.png',
   genre: 'R&B',
@@ -102,7 +103,7 @@ const object9 = {
 const object10 = {
   title: 'DB Volume',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1027290422269194301/DB_Volume_1.mp3',
+  audioSource: 'songs/DB_Volume_1.mp3',
   audioType: 'mp3',
   imageSource: 'images/DB_Volume.png',
   genre: 'D&B',
@@ -112,37 +113,37 @@ const object10 = {
 const object11 = {
   title: 'New Stuff',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1027300413407494194/New_stuff_reworked_choir.mp3',
+  audioSource: 'songs/New_stuff_reworked_choir.mp3',
   audioType: 'mp3',
   imageSource: 'images/project.png',
   genre: 'Atmo',
   versions: [
     {
       title: 'New_stuff_1',
-      audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1138460818862788758/New_stuff_1.mp3',
+      audioSource: 'songs/New_stuff_1.mp3',
       audioType: 'mp3'
   },
   {
     title: 'New_stuff_0',
-    audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1104039961881223218/New_stuff.mp3',
+    audioSource: 'songs/New_stuff.mp3',
     audioType: 'mp3'
 }]
 }
 
 const object12 = {
-  title: 'Harry Hard',
+  title: 'Glocken Spiel',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1145740331376201778/Harry_Hard_Final_mp4.mp3',
+  audioSource: 'songs/Glockenspiel_oder_so.mp3',
   audioType: 'mp3',
-  imageSource: 'images/Harry_hard.png',
-  genre: 'Hardstyle',
+  imageSource: 'images/glockenspiel.png',
+  genre: 'Hardbass',
   versions: ''
 }
 
 const object13 = {
   title: 'Brain Damage',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1146067525206028299/Brain_Damage.mp3',
+  audioSource: 'songs/Brain_Damage.mp3',
   audioType: 'mp3',
   imageSource: 'images/brain-image.jpeg',
   genre: 'Atmo',
@@ -152,7 +153,7 @@ const object13 = {
 const object14 = {
   title: 'Zitronen Sorbattle',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1146067525935837275/Zitronensorbattle_Jan_3.mp3',
+  audioSource: 'songs/Zitronensorbattle_Jan_3.mp3',
   audioType: 'mp3',
   imageSource: 'images/zitrone-image.jpeg',
   genre: 'Atmo',
@@ -162,7 +163,7 @@ const object14 = {
 const object15 = {
   title: 'Orchestral Christmas',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1146067525554143273/Orchestral_Christmas.mp3',
+  audioSource: 'songs/Orchestral_Christmas.mp3',
   audioType: 'mp3',
   imageSource: 'images/christmas-image.jpeg',
   genre: 'Orchestral',
@@ -172,7 +173,7 @@ const object15 = {
 const object16 = {
   title: 'Fiddle in the Middle',
   artist: 'Ketiman',
-  audioSource: 'https://cdn.discordapp.com/attachments/1027290213615140985/1027290984607924304/Fiddle_in_the_middle.mp3',
+  audioSource: 'songs/Fiddle_in_the_middle.mp3',
   audioType: 'mp3',
   imageSource: 'images/fiddle.jpeg',
   genre: 'Hardstyle',
